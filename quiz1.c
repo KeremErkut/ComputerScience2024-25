@@ -1,3 +1,10 @@
+/*******************************************************************
+@Title:	    quiz1
+@Purpose:	To prepare for the cs exam
+@Author:    Ciftlikci Kerem E. 
+@Date:   	11/21/24 | 21th of November 2024
+@Version:	1.0
+********************************************************************/
 #include<stdio.h>
 int main(){
     char name1[50];
