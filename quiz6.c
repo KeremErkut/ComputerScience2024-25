@@ -31,7 +31,7 @@ int main(void){
     printf("Enter a number: \n");
     scanf("%d", &choice);
     
-    int height, base, side, firstSide, secondSide, radius;  // Değişkenleri burada bildiriyoruz
+    int height, base, side, firstSide, secondSide, radius;  
     
     switch(choice){
         case 1:
