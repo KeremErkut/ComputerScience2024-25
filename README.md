@@ -17,7 +17,8 @@ These examples are perfect for beginners looking to grasp the basics of C progra
 2. Example 2: [Happy Birthday Program](#example-2-happy-birthday-program)  
 3. Example 3: [Animal Sound Program](#example-3-animal-sound-program)  
 4. Example 4: [Even Number Printer](#example-4-even-number-printer)  
-5. Example 5: [Say Hello Program](#example-5-say-hello-program)  
+5. Example 5: [Say Hello Program](#example-5-say-hello-program)
+6. Example 6: [Numbers Divisible by 3 Program](#example-6-numbers-divisible-by-3-program)  
 
 ✨ Dive in and happy coding! 🚀  
 
@@ -96,7 +97,7 @@ This program prints all even numbers starting from 2 up to a specified value (`1
 3. The loop continues until `i` exceeds `a`.
 
 
->### Features
+>### Key Features
 - Demonstrates the use of a `do-while` loop in C.
 - Prints a sequence of even numbers within a defined range.
 
@@ -117,6 +118,30 @@ This program asks for the user's name and greets them with a personalized messag
 - Demonstrates the use of a custom function in C.
 - Includes basic user input handling with `scanf`.
 - Provides a friendly and interactive output.
+
+<br> </br>
+
+## Example 6: Numbers Divisible by 3 Program  
+
+This program prints all numbers from 99 to 51 that are divisible by 3 in descending order.
+
+
+>### How It Works:
+1. The program initializes an integer variable `i` to `99` (the starting point).  
+2. Using a `do-while` loop:  
+   - The program prints the current value of `i`.  
+   - It decrements `i` by `3` in each iteration.  
+3. The loop continues as long as `i` is greater than `50`.  
+
+
+
+>### Key Features:
+- **Descending Order:** Numbers are printed from largest to smallest.  
+- **Divisibility Check:** Only numbers divisible by 3 are included.  
+- **Efficient Looping:** The step size is optimized to skip non-relevant numbers.  
+
+
+
 
 
 
