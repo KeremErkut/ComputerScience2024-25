@@ -18,7 +18,8 @@ These examples are perfect for beginners looking to grasp the basics of C progra
 3. Example 3: [Animal Sound Program](#example-3-animal-sound-program)  
 4. Example 4: [Even Number Printer](#example-4-even-number-printer)  
 5. Example 5: [Say Hello Program](#example-5-say-hello-program)
-6. Example 6: [Numbers Divisible by 3 Program](#example-6-numbers-divisible-by-3-program)  
+6. Example 6: [Numbers Divisible by 3 Program](#example-6-numbers-divisible-by-3-program)
+7. Example 7 : [Column Printer Program](#example-7-column-printer-program)
 
 ✨ Dive in and happy coding! 🚀  
 
@@ -138,7 +139,37 @@ This program prints all numbers from 99 to 51 that are divisible by 3 in descend
 >### Key Features:
 - **Descending Order:** Numbers are printed from largest to smallest.  
 - **Divisibility Check:** Only numbers divisible by 3 are included.  
-- **Efficient Looping:** The step size is optimized to skip non-relevant numbers.  
+- **Efficient Looping:** The step size is optimized to skip non-relevant numbers.
+
+<br> </br>
+
+## Example 7: Column Printer Program  
+
+This program prints a table with three columns by using two custom functions (`cl1` and `cl2`) alongside an iterative counter. Each row of the table is generated based on the index `i` from 1 to 10.
+
+---
+
+>### How It Works:
+1. **Custom Functions:**
+   - `cl1`: Multiplies the input value by `5` to generate values for the first column.  
+   - `cl2`: Computes values for the second column using the formula:  
+     `100 - ((b - 1) * 10 + 1)`  
+   - The third column displays the loop index (`i`).  
+2. **Looping Logic:**  
+   - A `for` loop iterates from `1` to `10`.  
+   - For each iteration, the values of the three columns are calculated and printed in a single line.
+
+
+
+>### Key Features:
+- **Custom Functionality:** Uses functions to generate dynamic values for each column.  
+- **Organized Output:** Produces a neatly formatted table of values.  
+- **Efficient Loop:** Iterates exactly 10 times, ensuring consistent and predictable output.  
+
+
+
+
+
 
 
 
