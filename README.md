@@ -19,7 +19,10 @@ These examples are perfect for beginners looking to grasp the basics of C progra
 4. Example 4: [Even Number Printer](#example-4-even-number-printer)  
 5. Example 5: [Say Hello Program](#example-5-say-hello-program)
 6. Example 6: [Numbers Divisible by 3 Program](#example-6-numbers-divisible-by-3-program)
-7. Example 7 : [Column Printer Program](#example-7-column-printer-program)
+7. Example 7: [Column Printer Program](#example-7-column-printer-program)
+8. Example 8: [Array Sum and Average Program](#example-8-array-sum-and-average-program)
+9. Example 9: [Dynamic Sum and Average Program](#example-9-dynamic-sum-and-average-program)
+10. Example10: [Multiplication Table Program](#example-10-multiplication-table-program)
 
 ✨ Dive in and happy coding! 🚀  
 
@@ -147,7 +150,6 @@ This program prints all numbers from 99 to 51 that are divisible by 3 in descend
 
 This program prints a table with three columns by using two custom functions (`cl1` and `cl2`) alongside an iterative counter. Each row of the table is generated based on the index `i` from 1 to 10.
 
----
 
 >### How It Works:
 1. **Custom Functions:**
@@ -164,7 +166,77 @@ This program prints a table with three columns by using two custom functions (`c
 >### Key Features:
 - **Custom Functionality:** Uses functions to generate dynamic values for each column.  
 - **Organized Output:** Produces a neatly formatted table of values.  
-- **Efficient Loop:** Iterates exactly 10 times, ensuring consistent and predictable output.  
+- **Efficient Loop:** Iterates exactly 10 times, ensuring consistent and predictable output.
+
+<br></br>
+
+## Example 8: Array Sum and Average Program  
+
+This program accepts 10 integers from the user, calculates their sum and average, and displays them alongside the entered numbers.
+
+>### How It Works:
+1. **Input Handling:**
+   - The user is prompted to enter 10 integers.
+   - Invalid input (non-integer values) is rejected with a prompt to re-enter.
+2. **Sum and Average Calculation:**
+   - The sum is accumulated as each valid number is entered.
+   - The average is computed by dividing the sum by 10.
+3. **Output:**
+   - Displays the entered numbers, their sum, and their average.
+
+>### Key Features:
+- **Array Handling:** Stores user input in an integer array.
+- **Input Validation:** Ensures only valid integers are accepted.
+- **Floating-Point Arithmetic:** Computes average with precision.
+
+<br></br>
+
+## Example 9: Dynamic Sum and Average Program  
+
+This program allows the user to continuously enter integers until they type `-1`, at which point the program calculates and displays the sum and average of the entered numbers.
+
+>### How It Works:
+1. **Input Handling:**
+   - Prompts the user to enter integers.
+   - The input `-1` stops the program.
+   - Invalid inputs are rejected with an error message.
+2. **Dynamic Sum and Average:**
+   - Accumulates the sum and counts valid inputs.
+   - Computes the average using the sum and count.
+3. **Output:**
+   - Displays the sum, average, and the count of valid numbers entered.
+
+>### Key Features:
+- **Flexible Input:** Allows any number of inputs before terminating.
+- **Input Validation:** Ensures only integers are processed.
+- **Dynamic Control:** Stops execution when `-1` is entered.
+
+<br></br>
+
+## Example 10: Multiplication Table Program  
+
+This program prints a multiplication table for numbers 1 through 10 in a formatted grid.
+
+>### How It Works:
+1. **Nested Loops:**
+   - Outer loop iterates through rows (`1` to `10`).
+   - Inner loop iterates through columns (`1` to `10`).
+   - The product of the current row and column index is calculated and printed.
+2. **Formatted Output:**
+   - Ensures each value is printed with consistent spacing for a neat table layout.
+
+>### Key Features:
+- **Nested Loops:** Demonstrates the use of loops within loops.
+- **Formatted Printing:** Outputs a neatly aligned multiplication table.
+
+
+
+
+
+
+
+
+
 
 
 
